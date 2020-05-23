@@ -9,7 +9,7 @@ M5 Forecasting is a well know competition in kaggle realized every year and it i
         
 More information on: https://mofc.unic.ac.cy/m5-competition/
 
-In this Github there are four codes. 
+In this Github there are four codes.\ 
 "M5 Forecasting - Accuracy - Data study is several analysis of the data consistency, and studies like the autocorrelation and partial autocorrelation. 
 
 "M5 Forecasting - Accuracy  - Variables contains the construction of new variables
