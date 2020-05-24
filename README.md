@@ -18,3 +18,6 @@ In this Github there are four codes.
 "M5 Forecasting - Accuracy  - Model contains the ARIMA model the forecast of the next 28 days.
 
 "holdout" - This file is important because it contains not only the holdout but some final studies and considerations of our model.
+
+
+One interesting thing about this project is that we decided to model one ARIMA per product. Therefore, the most challenging parts were how to automate the parameter and the varaible selection. Moreover, the data size that exceded 16GB, this was a problem not only because we used computers with 16 GB and 12 GB of memory, but also because any code that we run was extremely time consuming. To deal with the memory problem, we decided to create one database per product; and to deal with the time problem, we decided to run several jupyter notebooks at the same time using Google Colaboratory. 
