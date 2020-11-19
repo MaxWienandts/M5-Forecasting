@@ -21,3 +21,6 @@ In this Github there are four codes.
 
 
 One interesting thing about this project is that we decided to model one ARIMA per product. Therefore, the most challenging part was how to automate the parameter and the varaible selection. Moreover, the data size that exceded 16GB, this was a problem not only because we used computers with 16 GB and 12 GB of memory, but also because any code that we run was extremely time consuming. To deal with the memory problem, we decided to create one database per product; and to deal with the time problem, we decided to run several jupyter notebooks at the same time using Google Colaboratory. 
+
+
+A drawnback of this model was not considerer the correlations among the several products analysed.\
